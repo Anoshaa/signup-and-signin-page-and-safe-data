@@ -1,0 +1,32 @@
+.gradient-custom-2 {
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right,#db7149,#fb5b32,#f63a5a,#f11282,#da0e94,#971399,#8d1dac,#482c6c,#3d4ab7);
+    background: linear-gradient(to right,#db7149,#fb5b32,#f63a5a,#f11282,#da0e94,#971399,#8d1dac,#482c6c,#3d4ab7);
+    }
+    .btn-outline-danger:hover {
+        background: linear-gradient(to right,#3d4ab7,#482c6c,#8d1dac,#971399,#da0e94,#f11282,#f63a5a,#fb5b32,#db7149); 
+        color: white;
+    }
+    .btn-outline-danger{
+        background: linear-gradient(to right, #db7149,#fb5b32,#f63a5a,#f11282,#da0e94,#971399,#8d1dac,#482c6c,#3d4ab7);
+        border: none; 
+        border-radius: .5rem; 
+        color: white;
+        transition: background 0.3s ease; 
+    }
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 125vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+
+
+    /* #3d4ab7, #971399, #f63a5a, #da0e94, #db7149, #fb5b32, #f11282, #c43976, #8d1dac, #482c6c */
+    
